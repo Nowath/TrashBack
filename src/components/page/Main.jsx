@@ -70,7 +70,7 @@ function Main() {
                 />
                 <p className="text-red-600">{error}</p>
             </div>
-            <footer className="flex flex-col justify-cetner items-center gap-16 mt-20">
+            <footer className="flex flex-col justify-cetner items-center gap-16 mt-14">
                 <button
                     onClick={handleSubmit}
                     className="text-white w-60 p-2 rounded-xl h-10 bg-[#99BC85]"
