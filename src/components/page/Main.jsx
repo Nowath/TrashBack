@@ -32,7 +32,7 @@ function Main() {
     }
 
     return (
-        <div className="flex flex-col justify-around items-center relative h-full z-20">
+        <div className="lg:hidden sm:flex flex-col justify-center items-center relative z-20">
             <motion.div
                 initial={{ y: -40, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -70,10 +70,10 @@ function Main() {
                 />
                 <p className="text-red-600">{error}</p>
             </div>
-            <footer className="flex flex-col gap-16 mb-20">
+            <footer className="flex flex-col justify-cetner items-center gap-16 mt-20">
                 <button
                     onClick={handleSubmit}
-                    className=" w-60 p-2 rounded-xl h-10 bg-[#99BC85]"
+                    className="text-white w-60 p-2 rounded-xl h-10 bg-[#99BC85]"
                 >
                     Submit
                 </button>
