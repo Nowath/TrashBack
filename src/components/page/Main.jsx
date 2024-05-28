@@ -71,12 +71,14 @@ function Main() {
                 <p className="text-red-600">{error}</p>
             </div>
             <footer className="flex flex-col justify-cetner items-center gap-16 mt-14">
-                <button
+                <motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
                     onClick={handleSubmit}
                     className="text-white w-60 p-2 rounded-xl h-10 bg-[#99BC85]"
                 >
                     Submit
-                </button>
+                </motion.button>
                 <div className="flex flex-col justify-center items-center gap-5">
                     <h1 className="text-xl">Your point is:</h1>
                     <p className=" text-4xl">{point}</p>
